@@ -86,13 +86,13 @@ class Player extends Entity {
 class Bush extends Entity {
   Bush(float x) {
     super(x, height-30, 30, 30);
-    ax = -1 * random(0.01, 0.15);
+    vx = -5 ;// -0.08; //-1 * random(0.01, 0.15);
   }
 };
 
 class Bird extends Entity {
   Bird(float x) {
     super(x, height-90, 30, 30);
-    ax = -1 * random(0.01, 0.15);
+    vx = -5; //-1 * random(0.01, 0.15);
   }
 };

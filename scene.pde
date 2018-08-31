@@ -143,7 +143,7 @@ class Scene {
   
   void init() {
     randomSeed(0);
-    population.init(50);
+    population.init(25);
     enemies.add(new Bird(width));
   }
   
