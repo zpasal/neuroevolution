@@ -19,7 +19,8 @@ class Perceptron {
   }
 
   float sigmoid(float x) {
-    return 2.0 / (1.0 + exp(-2.0 * x)) - 1.0;
+   // return 2.0 / (1.0 + exp(-2.0 * x)) - 1.0;
+    return 1.0 / (1.0 + exp(-1.0 * x));
   }
   
   void mutate() {
